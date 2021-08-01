@@ -1,2 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@import "bulma/css/bulma.css";
+$primary: rgba(211, 65, 63, 1);
+$link: $primary;
+$navbar-item-img-max-height: 3rem;
+$navbar-height: 5rem;
+:root {
+  --primary: rgba(211, 65, 63, 1);
+}
+
+@import "bulma/bulma.sass";

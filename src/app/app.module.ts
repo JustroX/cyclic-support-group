@@ -9,6 +9,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { NavigationItemComponent } from './components/navigation-item/navigation-item.component';
 import { SafeHTMLPipe } from './pipes/safe-html.pipe';
 import { ViewerComponent } from './components/viewer/viewer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { ViewerComponent } from './components/viewer/viewer.component';
     NavigationItemComponent,
     SafeHTMLPipe,
     ViewerComponent,
+    HomeComponent,
+    NavbarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

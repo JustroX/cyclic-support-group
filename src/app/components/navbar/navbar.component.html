@@ -1,0 +1,55 @@
+<nav
+  class="navbar is-transparent"
+  role="navigation"
+  aria-label="main navigation"
+>
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="assets/logo.png" width="50" height="50" />
+    </a>
+
+    <a
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      <a routerLink="/home" class="navbar-item"> Home </a>
+
+      <a routerLink="/view/about" class="navbar-item"> About </a>
+
+      <a class="navbar-item"> Guidelines </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link"> Events </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item"> Comics Go </a>
+          <a class="navbar-item"> Telestrations </a>
+          <a class="navbar-item"> Darktober 2020 </a>
+        </div>
+      </div>
+
+      <a class="navbar-item"> Members </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Join Group</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
