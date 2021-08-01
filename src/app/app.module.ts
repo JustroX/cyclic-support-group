@@ -11,6 +11,9 @@ import { SafeHTMLPipe } from './pipes/safe-html.pipe';
 import { ViewerComponent } from './components/viewer/viewer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { LightgalleryModule } from 'lightgallery/angular';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +25,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ViewerComponent,
     HomeComponent,
     NavbarComponent,
+    GalleryComponent,
+    GalleryPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    LightgalleryModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

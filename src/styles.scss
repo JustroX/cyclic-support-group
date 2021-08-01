@@ -1,4 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~lightgallery/scss/lightgallery";
+@import "~lightgallery/scss/lg-zoom.scss";
+@import "~lightgallery/scss/lg-video.scss";
+@import "~lightgallery/scss/lg-thumbnail.scss";
+
 $primary: rgba(211, 65, 63, 1);
 $link: $primary;
 $navbar-item-img-max-height: 3rem;

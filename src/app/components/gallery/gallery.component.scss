@@ -1,0 +1,41 @@
+.caption {
+  display: none;
+}
+
+lightgallery {
+  img {
+    padding: 5px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  img {
+    &:nth-child(5n + 1) {
+      width: 50%;
+    }
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+  img {
+    &:nth-child(4n + 2),
+    &:nth-child(4n + 3) {
+      width: 66%;
+    }
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 601px) {
+  img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}

@@ -1,6 +1,6 @@
 # What is Cyclic?
 
-Cyclic Support Group (CSG) is the first attempt in implementing a [Cyclic-compliant group](guidelines/main). The group currently consists of Filipino individuals working on diffrent things including music, arts, math, programming, etc.
+Cyclic Support Group (CSG) is the first attempt in implementing a [Cyclic-compliant group](guidelines/main). The group currently consists of Filipino individuals working on diffrent things including music, arts, photography, math, programming, etc.
 
 Here are some links to learn more about Cyclic.
 
@@ -10,3 +10,5 @@ Here are some links to learn more about Cyclic.
 4. [Guidelines]()
 5. [Members]()
 6. [Previous Version]()
+
+---

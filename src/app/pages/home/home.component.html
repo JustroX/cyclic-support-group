@@ -3,7 +3,7 @@
   <div class="hero-body">
     <p class="title">Cyclic Support Group</p>
     <p class="subtitle">
-      A group of individual aiming to improve ourselves one skill at a time.
+      A group of individuals aiming to improve themselves one skill at a time.
     </p>
     <div class="block">
       <a class="button block is-rounded cta">
@@ -23,11 +23,164 @@
 </section>
 
 <section class="section">
-  <div class="columns">
-    <div class="column">&nbsp;</div>
-    <div class="column is-four-fifths">
-      <app-viewer url="/view/summary/intro"></app-viewer>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <app-viewer url="/view/summary/intro"></app-viewer>
+      </div>
+      <div class="column">&nbsp;</div>
     </div>
-    <div class="column">&nbsp;</div>
   </div>
 </section>
+
+<section class="hero">
+  <div class="hero-body">
+    <p class="title">Our works</p>
+    <p class="subtitle">Here are some of the works made by our members</p>
+    <a routerLink="/gallery" class="button block is-rounded is-primary">
+      <span> Explore Gallery </span>
+      <span class="icon">
+        <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+
+    <br />
+    <app-gallery [images]="images"></app-gallery>
+  </div>
+</section>
+
+<section class="hero gray">
+  <div class="hero-body">
+    <p class="title">Inside the group</p>
+    <p class="subtitle">Here's a sneak peak inside our group</p>
+
+    <div class="columns">
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/content/group/standup.png" alt="Standup" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>📝Regular Standups</h4>
+              <p>
+                We have a regular ritual to share our intended goal/s at the
+                start of week or month. This is a way for us to clarify our
+                intent and increase the likelihood that we'll actually follow
+                through our plans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/content/group/showcase.png" alt="Showcase" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>🎉 Progress Showcase</h4>
+              <p>
+                We encourage ourselves to regularly share our progress with each
+                other. This process helps us gather feedback and reflect on the
+                things that we had accomplished.
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/content/group/resources.png" alt="Resources" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>📚 Group Resources</h4>
+              <p>
+                We compiled a huge database where we organize the most useful
+                tutorial, references, and tools that help us in our creative
+                process. The database contains topics about digital art, design,
+                programming, and a lot more!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero gray">
+  <div class="hero-body">
+    <div class="members">
+      <p class="title">Members</p>
+      <p class="subtitle">Our current members</p>
+      <br />
+      <div
+        class="
+          columns
+          is-8 is-justify-content-flex-start is-mobile is-multiline
+        "
+      >
+        <div
+          *ngFor="let member of members"
+          class="column is-half-mobile is-4-tablet is-3-desktop center"
+        >
+          <div class="thumbnail">
+            <figure class="image">
+              <img class="is-rounded" [src]="member.image" />
+            </figure>
+          </div>
+          <div class="box">
+            <h1>{{ member.name }}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <p class="title">We're looking for new members!</p>
+    <p class="subtitle">Interested? Join Cyclic support group now</p>
+    <div class="block">
+      <a class="button block is-rounded cta">
+        <span> Join Group </span>
+        <span class="icon">
+          <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+      <a class="button block is-rounded is-link">
+        <span> Learn more </span>
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; 2021 Cyclic Support Group. All rights reserved.
+      <br />
+      <small>
+        This website is created using
+        <a href="https://github.com/Justrox/mughead">Mughead.js</a>
+        by
+        <a href="https://github.com/JustroX">JustroX</a>.
+      </small>
+    </p>
+  </div>
+</footer>

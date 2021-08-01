@@ -1,0 +1,19 @@
+<lightgallery [settings]="settings">
+  <img
+    *ngFor="let image of images; let id = index"
+    [alt]="image.title"
+    [src]="image.image"
+    [attr.data-src]="image.external == '' ? image.image : image.external"
+    [attr.data-iframe]="image.iframe"
+    [attr.data-sub-html]="
+      '<b>' +
+      image.title +
+      '</b>' +
+      '<br /><small>' +
+      image.type +
+      '<br />By ' +
+      image.creator +
+      '</small>'
+    "
+  />
+</lightgallery>
