@@ -9,11 +9,13 @@
     </a>
 
     <a
+      [class.is-active]="isOpen"
+      (click)="isOpen = !isOpen"
       role="button"
       class="navbar-burger"
       aria-label="menu"
       aria-expanded="false"
-      data-target="navbarBasicExample"
+      data-target="navbarMenu"
     >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -21,7 +23,7 @@
     </a>
   </div>
 
-  <div class="navbar-menu">
+  <div id="navbarMenu" class="navbar-menu" [class.is-active]="isOpen">
     <div class="navbar-start">
       <a routerLink="/home" class="navbar-item"> Home </a>
 
@@ -29,7 +31,10 @@
 
       <a routerLink="/gallery" class="navbar-item"> Gallery </a>
 
-      <a class="navbar-item"> Guidelines </a>
+      <a routerLink="/view/guidelines/main" class="navbar-item"> Guidelines </a>
+      <a routerLink="/view/guidelines/cyclic-2" class="navbar-item">
+        Cyclic 2.0
+      </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link"> Events </a>
