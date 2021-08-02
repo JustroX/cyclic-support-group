@@ -1,12 +1,12 @@
 # The Cyclic Story
 
-Cyclic Support Group (CSG) is the first attempt in implementing a [Cyclic-compliant]() group. The group currently consists of Filipino individuals working on diffrent things including music, arts, photography, math, programming, etc.
+Cyclic Support Group (CSG) is the first attempt in implementing a [Cyclic-compliant](/guidelines/cyclic-2#implementation) group. The group currently consists of Filipino individuals working on diffrent things including music, arts, photography, math, programming, etc.
 
 ### Conception
 
-The initial idea of [Cyclic Framework]() was originally conceived by [Infinity Grass]() in March 21, 2019. Instead of attending an _Alternative Class Learning Experience_ (ACLE) happening back then, he decided to stay at home and binge-watch YouTube videos like a total wasteman. Thankfully, some good came into it as he was introduced to [Standard](https://standard.tv/).
+The initial idea of [Cyclic Framework](guidelines/cyclic-2) was originally conceived by [Infinity Grass]() in March 21, 2019. Instead of attending an _Alternative Class Learning Experience_ (ACLE) happening back then, he decided to stay at home and binge-watch YouTube videos like a total wasteman. Thankfully, some good came into it as he was introduced to [Standard](https://standard.tv/).
 
-The initial concept for Cyclic was heavily-inspired by [Standard]() &mdash; a support group of creative people helping each other toward their goals. The idea pretty much is solid, however, due to the amount of academic backlogs present then, the first implementation was delayed for nine months.
+The initial concept for Cyclic was heavily-inspired by [Standard](https://standard.tv) &mdash; a support group of creative people helping each other toward their goals. The idea pretty much is solid, however, due to the amount of academic backlogs present then, the first implementation was delayed for nine months.
 
 ### Twists and Turns
 

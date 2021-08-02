@@ -2,6 +2,21 @@
 
 <a href="/content/guidelines/Cyclic_2_0.pdf">[DOWNLOAD PDF VERSION]</a> &nbsp;&nbsp; <a href="https://github.com/JustroX/cyclic-support-group/edit/master/content/guidelines/cyclic-2.md">[EDIT ON GITHUB]</a>
 
+## Summary
+
+- Cyclic is a community framework which aims to provide its members an environment to build specific knowledge.
+- Cyclic is open-source: it can be forked, edited, and modified.
+- Groups who adopt Cyclic are termed to be Cyclic-compliant groups.
+- There are 6 requirements a group should have to be Cyclic-compliant:
+  1. Common Area
+  2. Common Library
+  3. Code of Conduct
+  4. Activity States
+  5. Code of Conduct
+  6. Group Portfolio
+
+---
+
 ## Rationale
 
 ### Open-source Community Structure
