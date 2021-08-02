@@ -1,4 +1,45 @@
 <app-navbar></app-navbar>
 <div class="content">
   <app-viewer [url]="url"></app-viewer>
+
+  <div *ngIf="isActivation">
+    <br /><br />
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">Do you agree?</p>
+        <p class="subtitle">Please check the following items</p>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" />
+            I have read and understood
+            <a href="/view/guidelines/cyclic-2">Cyclic 2.0 Framework.</a>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" />
+            I agree to
+            <a href="/view/guidelines/main">Cyclic Support Group Guidelines</a>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" />
+            I agree to follow
+            <a href="/view/guidelines/main"
+              >Cyclic Support Group Code of Conduct</a
+            >
+          </label>
+        </div>
+        <br />
+        <button class="button is-primary is-rounded">
+          <span>Continue</span>
+
+          <span class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </span>
+        </button>
+      </div>
+    </section>
+  </div>
 </div>
