@@ -1,0 +1,59 @@
+<app-navbar></app-navbar>
+<div class="content">
+  <app-viewer url="/view/onboarding/intro"></app-viewer>
+
+  <hr />
+
+  <div *ngIf="!isReady">
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">You seemed to reading so fast 👀</p>
+        <p class="subtitle">Please do not skip reading the guidelines.</p>
+      </div>
+    </section>
+  </div>
+
+  <div *ngIf="isReady">
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">Do you agree?</p>
+        <p class="subtitle">Please check the following items</p>
+        <div>
+          <label class="checkbox">
+            <input [(ngModel)]="flags.agree_framework" type="checkbox" />
+            I have read and understood
+            <a href="/view/guidelines/cyclic-2">Cyclic 2.0 Framework.</a>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input [(ngModel)]="flags.agree_guidelines" type="checkbox" />
+            I agree to
+            <a href="/view/guidelines/main">Cyclic Support Group Guidelines</a>
+          </label>
+        </div>
+        <div>
+          <label class="checkbox">
+            <input [(ngModel)]="flags.agree_coc" type="checkbox" />
+            I agree to follow
+            <a href="/view/guidelines/main"
+              >Cyclic Support Group Code of Conduct</a
+            >
+          </label>
+        </div>
+        <br />
+        <button
+          (click)="agree()"
+          [class.is-loading]="flags.isLoading"
+          class="button is-primary is-rounded"
+        >
+          <span>Continue</span>
+
+          <span class="icon">
+            <i class="fas fa-arrow-right"></i>
+          </span>
+        </button>
+      </div>
+    </section>
+  </div>
+</div>

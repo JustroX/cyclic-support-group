@@ -14,6 +14,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LightgalleryModule } from 'lightgallery/angular';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
+import { AgreementComponent } from './pages/agreement/agreement.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,10 +29,12 @@ import { GalleryPageComponent } from './pages/gallery-page/gallery-page.componen
     NavbarComponent,
     GalleryComponent,
     GalleryPageComponent,
+    AgreementComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
     LightgalleryModule,
   ],

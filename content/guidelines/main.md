@@ -1,14 +1,3 @@
-<div class="block container">
-    <article class="message is-danger">
-    <div class="message-header">
-        <p>Deprecation Notice for CSG members</p>
-    </div>
-    <div class="message-body">
-        Cyclic 1.0 guidelines wil be deprecated on <b>August 11, 2021</b>. If you haven't migrated to version 2.0 yet, please visit <code>#v2-migration</code> before <b>August 11, 2021</b> or you'll be at risk of losing your server access.
-    </div>
-    </article>
-</div>
-
 # Cyclic Support Group Guidelines
 
 Starting on August 11, 2021, Cyclic Support Group (CSG) will fully adopt the [Cyclic 2.0](cyclic-2) guidelines. Members who haven't migrated to [Cyclic 2.0](cyclic-2) yet after [Cyclic 1.0](https://sites.google.com/view/cyclic-group/guidelines) deprecation date is at risk of losing their group access.

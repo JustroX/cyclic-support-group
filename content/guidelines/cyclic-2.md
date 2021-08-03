@@ -10,7 +10,7 @@
 - There are 6 requirements a group should have to be Cyclic-compliant:
   1. Common Area
   2. Common Library
-  3. Code of Conduct
+  3. Accountability Routine
   4. Activity States
   5. Code of Conduct
   6. Group Portfolio
