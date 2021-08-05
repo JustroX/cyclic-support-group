@@ -97,8 +97,7 @@ In summary, this implementation includes:
 
 2. A notion database as a common library.
 
-   - It can be accessed through this link [https://www.notion.so/Cyclic-Resources-20d2a2b4116044589375f62fb31a7df9](https://www.notion.so/Cyclic-Resources-20d2a2b4116044589375f62fb31a7df9)
-   - The link can also be found on `#quick-links` channel.
+   - The link for the library can be found on `#quick-links` channel.
    - The collection currently contains tutorials, references, and tools about
      - Digital art
      - Design
