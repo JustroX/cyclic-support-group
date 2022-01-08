@@ -12,8 +12,7 @@ export const var_members = [
   },
   {
     name: 'Isolated Echo',
-    image:
-      'https://pbs.twimg.com/profile_images/1277523152487120896/XlymXc5T_400x400.jpg',
+    image: 'https://i1.sndcdn.com/avatars-JvRgEloQf5u3kJ5I-LA7kZA-t500x500.jpg',
   },
   {
     name: 'Mark Charael',
@@ -44,6 +43,15 @@ export const var_members = [
   {
     name: 'Juan Academy',
     image:
-      'https://scontent.fwnp1-1.fna.fbcdn.net/v/t1.6435-9/132443073_107413887933939_5541296286638279400_n.png?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=PZdoD5xdhZ4AX-LEkJZ&_nc_ht=scontent.fwnp1-1.fna&oh=5d7bee5791d1af69a302fcba655b8a0b&oe=612C8954',
+      'https://yt3.ggpht.com/ytc/AKedOLS5DTP1SNgXhHkjqi_TxNpWTiuKXvNWaERuI8xL=s900-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    name: 'Code Lagomorph',
+    image:
+      'https://yt3.ggpht.com/XJAUifwGyWZlZB5-RujMF8WMQTRWiz2SRS3tdG-xIR1r8caC82h3VVdhSZWRIkC-MnchHqG9ag=s900-c-k-c0x00ffffff-no-rj',
+  },
+  {
+    name: 'Diesel',
+    image: '/assets/diesel.jpg',
   },
 ];
